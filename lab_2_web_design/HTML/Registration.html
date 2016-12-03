@@ -1,0 +1,59 @@
+﻿<!DOCTYPE>
+
+<html>
+<head>
+    <title>Application Name: Registration</title>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <script type="text/javascript" src="../scripts/register.js"></script>
+    <script type="text/javascript">
+            function submit() {
+                alert("submitting");
+            }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav id="top">
+            <div class="nav-content">
+                <span><a href="html_style.html">Application Name</a></span>
+                <a href="Help.html">Help</a>
+                <a href="Registration.html">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <h2>Register</h2>
+
+    <form method="POST" action="javascript:register()">
+        <div class="form-control">
+            <label for="">First Name: </label>
+            <input id="FirstName" type="textbox" name="FirstName" value="">
+        </div>
+        <div class="form-control">
+            <label for="">Last Name: </label>
+            <input id="LastName" type="textbox" name="LastName" value="">
+        </div>
+        <div class="form-control">
+            <label for="">Age: </label>
+            <input id="Age" type="textbox" name="Age" value="">
+        </div>
+        <div class="form-control">
+            <label for="">Year in School: </label>
+            <input id="Year1" type="radio" value="Freshman" >Freshman
+            <input id="Year2" type="radio" value="Sophmore" >Sophmore
+            <input id="Year3" type="radio" value="Junior" >Junior
+            <input id="Year4" type="radio" value="Senior" >Senior<br />
+        </div>
+        <div class="form-control">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <div class="registered">
+        Registered: <span id="result"></span>
+    </div>
+    <footer>
+        <br /> a footer! &copy;2016
+    </footer>
+</body>
+</html>

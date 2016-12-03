@@ -1,0 +1,51 @@
+﻿@model lab_2_web_design.Models.Yarn
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Yarn</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ColorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ColorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrandName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrandName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Skeins)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Skeins)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.YarnType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.YarnType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.YarnId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
