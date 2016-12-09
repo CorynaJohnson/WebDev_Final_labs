@@ -125,6 +125,7 @@ namespace lab_2_web_design.Controllers
             User user = _dataRepository.getUser(id);
             return RedirectToAction("Index");
         }
+        
 
     }
 }

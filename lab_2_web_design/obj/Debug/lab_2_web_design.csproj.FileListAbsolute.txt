@@ -24,3 +24,4 @@ c:\users\coryna\documents\visual studio 2015\Projects\lab_2_web_design\lab_2_web
 c:\users\coryna\documents\visual studio 2015\Projects\lab_2_web_design\lab_2_web_design\bin\SimpleInjector.Integration.Web.Mvc.xml
 c:\users\coryna\documents\visual studio 2015\Projects\lab_2_web_design\lab_2_web_design\obj\Debug\lab_2_web_design.Migrations.Movingallthethings.resources
 c:\users\coryna\documents\visual studio 2015\Projects\lab_2_web_design\lab_2_web_design\obj\Debug\lab_2_web_design.csproj.GenerateResource.Cache
+C:\Users\Coryna\Documents\Visual Studio 2015\Projects\lab_2_web_design\lab_2_web_design\obj\Debug\lab_2_web_design.csprojResolveAssemblyReference.cache
